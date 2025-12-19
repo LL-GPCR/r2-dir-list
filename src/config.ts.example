@@ -3,7 +3,7 @@ import { Env, SiteConfig } from './types';
 export function getSiteConfig(env: Env, domain: string): SiteConfig | undefined {
     const configs: {[domain: string]: SiteConfig} = {
         'bucketdomain.example.com': {
-            name: "Name of your website",
+            name: "my-files",
             bucket: env.BUCKET_bucketname,
             desp: {
                 '/': "Description of your website at default",
